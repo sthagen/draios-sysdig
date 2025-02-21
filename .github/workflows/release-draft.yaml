@@ -228,6 +228,7 @@ jobs:
           path: |
             *.deb
             *.rpm
+            *.tar.gz
 
   create-draft-release:
     runs-on: ubuntu-latest
